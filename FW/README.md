@@ -1,5 +1,9 @@
 # 固件说明
 
+## CH552_Blaster_v21.11.3.hex
+
+- 修改LED的控制逻辑，忙时低电平点亮，闲时高电平熄灭。
+
 ## CH552_Blaster_v21.10.21.hex
 
 USB-Blaster固件，调试烧录Altera的FPGA和CPLD，使用WCHISPTool写入CH552。主要参数如下:
