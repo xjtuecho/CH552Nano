@@ -44,6 +44,19 @@ USB-Blaster固件，调试烧录Altera的FPGA和CPLD，使用WCHISPTool写入CH5
 - P3.0和P3.1为UART接口，波特率38400，可以使用超级终端连接
 - P3.6和P3.7为USB接口
 
+
+## CH552_JTAG_SMT2.hex
+
+- Digilent JTAG SMT2下载器固件，用于Xilinx的FPGA/CPLD下载调试。
+- 来自：[CH552 模拟 Digilent JTAG-SMT2](https://whycan.com/t_8631.html)
+
+### 管脚分配
+
+- P1.4 TMS
+- P1.5 TDI
+- P1.6 TDO
+- P1.7 TCK
+
 ## prgmr1.0a3u3.hex
 
 编程器固件，使用WCHISPTool写入CH552，运行频率24M，需要5V供电。
